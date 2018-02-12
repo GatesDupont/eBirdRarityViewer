@@ -18,7 +18,7 @@ taxify <- function(birds){
 # Pull from second API
 api2 = function(regionCode, back){
   url = paste('https://ebird.org/ws2.0/data/obs/', regionCode, 
-              '/recent/notable?detail=full&key=phvesltiq609&back=',back, sep = "")
+              '/recent/notable?detail=full&key={{ebird-user-API-key}}&back=',back, sep = "")
   data = fromJSON(readLines(url, warn=FALSE))
 }
 
@@ -36,7 +36,7 @@ gtag = function(){
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   
-  gtag('config', 'UA-111749651-1');
+  gtag('config', '{{google-analytics-user-key}}');
   </script>"
 }
 
