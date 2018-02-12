@@ -29,10 +29,7 @@ uloc = makeIcon(iconUrl = "./uloc.png", iconHeight = 25, iconWidth = 25)
 
 ### USER INTERFACE ### -------------------------------------------------------------------
 ui <- bootstrapPage(
-  
-  # TODO: build a smaller title with these:
-  # h3('test test test test'),
-  
+ 
   # Adding dynamically updating USER LOC
   tags$script(geoloc()),
   
@@ -62,10 +59,6 @@ ui <- bootstrapPage(
   absolutePanel(top = 1, right = 45, draggable = F,
                 selectInput("region_in", "Region Code", choices = choices, 
                             selected = "US-MA", multiple = F, width  = 130)),
-  
-  ##Adding TEXT SPECIES INPUT overlayed on leaflet map
-  #absolutePanel(bottom = 105, left = 45, width = 170, draggable = T,
-  #              textInput("species_in", "Species", placeholder = "Rusty Blackbird")),
   
   # Adding SELECT SPECIES INPUT overlayed on leaflet map
   absolutePanel(bottom = 205, left = 45, width = 170, draggable = T,
