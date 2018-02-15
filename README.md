@@ -9,3 +9,7 @@ Hovering over a point reveals the species, date, and location, while clicking a 
 URL: https://ebird.org/ebird/subnational1/US-MA?yr=all
 
 Region code: US-MA
+
+#### Screenshot Example
+
+![alt text](https://github.com/GatesDupont/eBirdRarityViewer/blob/master/ERV%20Example.png)
