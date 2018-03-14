@@ -114,7 +114,7 @@ server <- function(input, output, session) {
     a["url"] <- NA
     a$url = sapply(a$subId, subIDurl)
     
-    ### THIS IS DUPLICATE TO ABOVE< WORKING WEIRDLY ###
+    # Double-check
     # Species search filtering
     if(input$species_in %in% a$comName){
       #a = subset(a, a$comName == as.character(input$species_in))
