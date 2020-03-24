@@ -1,5 +1,5 @@
 # eBird Rarity Viewer
-An intuitive shiny app that shows rare bird observations reported to eBird. You can see the application at http://www.gatesdupont.com/erv
+An intuitive shiny app that shows rare bird observations reported to eBird. You can see the application at https://gld44.shinyapps.io/rare/
 
 ### Full Description
 This is an application I made that displays recent notable sightings from eBird in a specified region and time-frame. The user interface is very intuitive, so have fun playing around with it!
